@@ -15,8 +15,8 @@ model = AutoModelForCausalLM.from_pretrained("rinna/japanese-gpt2-medium")
 dataset = load_dataset(
     path="text",
     data_files={
-        "train":"errier.txt",
-        "test":"errier.txt"
+        "train":"train.txt",
+        "test":"train.txt"
     }
 )
 
